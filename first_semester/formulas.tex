@@ -1,0 +1,120 @@
+\documentclass{article}
+
+\usepackage[utf8x]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{cmap}
+\usepackage{commath}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage{parskip}
+\usepackage{titling}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{cancel}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{docmute}
+\usepackage{titlesec}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage[a4paper, left=2.5cm, right=1.5cm, top=2.5cm, bottom=2.5cm]{geometry}
+
+\graphicspath{ {./images/} }
+\setlength{\droptitle}{-3cm}
+\hypersetup{ colorlinks=true, linktoc=all, linkcolor=blue }
+\pagenumbering{arabic}
+
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+\begin{document}
+
+\section{Приложения.}
+    \subsection{Константы.}
+
+    \begin{center}
+        \begin{tabular}{ l l }
+            \hline
+            Гравитационная постоянная & \(G = 6.67 \cdot 10^{-11} \frac{\textrm{Н} \cdot \textrm{м}^2}{\textrm{кг}^2}\) \\ 
+            Электрическая постоянная & \(\varepsilon_0 = 8.85 \cdot 10^{-12} \frac{\textrm{Ф}}{\textrm{м}}\) \\  
+            Масса электрона & \(m_e = 9.11 \cdot 10^{-31} \) кг \\
+            Масса протона & \(m_p = 1.67 \cdot 10^{-27} \) кг \\
+            Масса нейтрона & \(m_n = 1.675 \cdot 10^{-27} \) кг \\
+            Элементарный заряд & \(e = 1.6 \cdot 10^{-19} \) Кл \\
+            Коэффициент пропорциональности в законе Кулона & \(k = \frac{1}{4\pi\varepsilon_0} = 9 \cdot 10^{9} \frac{\textrm{Н} \cdot \textrm{м}^2}{\textrm{Кл}^2}\) \\
+            \hline
+        \end{tabular}
+    \end{center}
+
+    \subsection{Формулы.}
+    
+    \begin{center}
+        \begin{tabular}{ l l }
+            \hline
+            \hline
+            \multicolumn{2}{c}{Электростатика} \\
+            \hline
+            \hline
+            Закон сохранения заряда & \(\Sigma q_i = const\) \\
+            \hline
+            Закон Кулона & \(F = k\frac{q_1 \cdot q_2}{r^2}\) \\
+            \hline
+            Напряженность электрического поля точечного заряда & \(E = k\frac{q}{r^2}\) \\
+            \hline
+            Электрическая сила & \( \vec{F} = q\vec{E} \) \\
+            \hline
+            Принцип суперпозиции электрических полей & \( \vec{E} = \vec{E_1} + \vec{E_2} + ... + \vec{E_n} \) \\
+            \hline
+            Потенциал электрического поля точечного заряда & \( \varphi = k\frac{q}{r} \) \\
+            \hline
+            Диэлектрическая проницаемость среды & \( \varepsilon = \frac{F}{F_0} \) \\
+            \hline
+            Напряжение & \( U = \varphi_1 - \varphi_2 \) \\
+            \hline
+            Работа электрического поля & \( A = qU \) \\
+            \hline
+            Связь напряженности и разности потенциалов & \( E = \frac{U}{d} \) \\
+            \hline
+            Электроемкость плоского конденсатора & \( C = \frac{q}{U} = \frac{\varepsilon S}{d} \) \\
+            \hline
+            Энергия конденсатора & \( W = \frac{CU^2}{2} \) \\
+            \hline
+            \hline
+            \multicolumn{2}{c}{Электродинамика} \\
+            \hline
+            \hline
+            Сила тока & \( I = \frac{dq}{dt} = envS \) \\
+            \hline
+            Сопротивление проводника & \( R = \frac{\rho l}{S} \) \\
+            \hline
+            Закон Ома для участка цепи & \( I = \frac{U}{R} \) \\
+            \hline
+            Закон Ома для полной цепи & \( I = \frac{\varepsilon}{R + r} \) \\
+            \hline
+            Законы последовательного соединения проводников & \(\begin{array}{l}
+                I = const \\
+                U = U_1 + U_2 + ... + U_n \\
+                R = R_1 + R_2 + ... + R_n
+            \end{array}\) \\
+            \hline
+            Законы последовательного соединения проводников & \(\begin{array}{l}
+                I = I_1 + I_2 + ... + I_n \\
+                U = const \\
+                \frac{1}{R} = \frac{1}{R_1} + \frac{1}{R_2} + ... + \frac{1}{R_n}
+            \end{array}\) \\
+            \hline
+            Закон Джоуля-Ленца & \( Q = I^2Rt = IUt \) \\
+            \hline
+            Мощность тока & \( Q = I^2R = IU \) \\
+            \hline
+            \hline 
+        \end{tabular}
+    \end{center}
+
+\end{document}
